@@ -1,16 +1,11 @@
-var arr = ['T', 'Ô', 'I', ' ', 'L', 'À', ' ', 'M', 'Ộ', 'T', ' ', 'C', 'O', 'D', 'E', 'R', ' ', '!', '!', '!']
+// var arr = ['T', 'Ô', 'I', ' ', 'L', 'À', ' ', 'M', 'Ộ', 'T', ' ', 'C', 'O', 'D', 'E', 'R', ' ', '!', '!', '!']
 
 function nhapTuBanPhim() {
     var txt = document.getElementById("txt");
     var demKiTu = txt.value.length;
     console.log(demKiTu);
     if (demKiTu > 0) {
-        for (let i = 0; i < arr.length; i++) {
-            // txt.value += arr[i];
-            //
-            // if (demKiTu == 15) {
-            //     txt.value === '';
-            // }
+        for (let i = 0; i < demKiTu; i++) {
 
             if (demKiTu === 1) {
                 txt.value = "T"
